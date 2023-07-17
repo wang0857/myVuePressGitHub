@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.66">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <title>Using a layout - Guide page | Hello VuePress</title><meta name="description" content="Just playing around">
+    <link rel="preload" href="/myVuePressGitHub/assets/style-c576bf82.css" as="style"><link rel="stylesheet" href="/myVuePressGitHub/assets/style-c576bf82.css">
+    <link rel="modulepreload" href="/myVuePressGitHub/assets/app-d469e316.js"><link rel="modulepreload" href="/myVuePressGitHub/assets/index.html-b05193dc.js"><link rel="modulepreload" href="/myVuePressGitHub/assets/index.html-4d8c88ff.js"><link rel="prefetch" href="/myVuePressGitHub/assets/about.html-e7a7936e.js" as="script"><link rel="prefetch" href="/myVuePressGitHub/assets/index.html-8dede234.js" as="script"><link rel="prefetch" href="/myVuePressGitHub/assets/404.html-60b35caa.js" as="script"><link rel="prefetch" href="/myVuePressGitHub/assets/about.html-40b0cfc8.js" as="script"><link rel="prefetch" href="/myVuePressGitHub/assets/index.html-7e8459e5.js" as="script"><link rel="prefetch" href="/myVuePressGitHub/assets/404.html-352d942f.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="container" data-v-b2d47ebf><header data-v-b2d47ebf><h1 data-v-b2d47ebf>Layout&#39;s header</h1></header><main data-v-b2d47ebf><div data-v-b2d47ebf><h1 id="here-the-guide-page" tabindex="-1"><a class="header-anchor" href="#here-the-guide-page" aria-hidden="true">#</a> Here the &#39;Guide&#39; page</h1><h2 id="developer-ipsum" tabindex="-1"><a class="header-anchor" href="#developer-ipsum" aria-hidden="true">#</a> Developer Ipsum</h2><ul><li>The trouble with programmers is that you can never tell what a programmer is doing until it’s too late. (Seymour Cray)</li><li>That’s what’s cool about working with computers. They don’t argue, they remember everything, and they don’t drink all your beer. (Paul Leary)</li></ul></div><!-- built-in component that display the index.md  --><div data-v-b2d47ebf><h2>Hello from the `&#39;HelloVue&#39; component</h2><h3>Using a layout - Guide page</h3></div></main><footer data-v-b2d47ebf><p data-v-b2d47ebf>© 2023 My VuePress Site</p></footer></div><!----><!--]--></div>
+    <script type="module" src="/myVuePressGitHub/assets/app-d469e316.js" defer></script>
+  </body>
+</html>
